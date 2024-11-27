@@ -1,0 +1,39 @@
+
+.custom-div-icon {
+  background: transparent;
+  border: none;
+}
+
+.marker-pin {
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 50% 50% 0;
+  background: #6366f1;
+  position: absolute;
+  transform: rotate(-45deg);
+  left: 50%;
+  top: 50%;
+  margin: -15px 0 0 -15px;
+}
+
+.marker-pin::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  margin: 3px 0 0 3px;
+  background: #fff;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.marker-text {
+  position: absolute;
+  width: 30px;
+  font-size: 12px;
+  color: #6366f1;
+  text-align: center;
+  transform: rotate(0deg);
+  margin: -5px 0 0 -15px;
+  font-weight: bold;
+}
+
